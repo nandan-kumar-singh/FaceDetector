@@ -30,7 +30,7 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.List;
 
-import detection.Detector;
+
 
 public class MainActivity extends AppCompatActivity {
     private Button buttonDetectFace,buttonGetImage,buttonOpenCamera;
@@ -69,14 +69,9 @@ public class MainActivity extends AppCompatActivity {
         buttonDetectFace.setOnClickListener(onClickListener);
         buttonGetImage.setOnClickListener(onClickListener);
         String imageUri = "drawable://" + R.drawable.face;
-        getFaceCount(imageUri);
+   //     getFaceCount(imageUri);
     }
-    private void getFaceCount(String fileName)
-    {
-        Detector detector=Detector.create(getAssets().toString()+"/haarcascade_frontalface_default.xml");
-        List res=detector.getFaces(fileName, 1.2f, 1.1f, .05f, 2, true);
-        Toast.makeText(this,res.size()+"",Toast.LENGTH_LONG).show();
-    }
+
     private void init() {
         buttonGetImage=(Button)findViewById(R.id.btn_detectFace);
         buttonDetectFace=(Button)findViewById(R.id.btn_getImage);

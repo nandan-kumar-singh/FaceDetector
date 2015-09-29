@@ -10,9 +10,11 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Demo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/openCVLibrary300" />
             <option value="$PROJECT_DIR$/openCVSamplefacedetection" />
+            <option value="$PROJECT_DIR$/opencv-android" />
           </set>
         </option>
       </GradleProjectSettings>

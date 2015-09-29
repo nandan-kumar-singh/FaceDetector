@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Demo/Demo.iml" filepath="$PROJECT_DIR$/Demo/Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/FaceDetector.iml" filepath="$PROJECT_DIR$/FaceDetector.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" filepath="$PROJECT_DIR$/openCVLibrary300/openCVLibrary300.iml" />
       <module fileurl="file://$PROJECT_DIR$/openCVSamplefacedetection/openCVSamplefacedetection.iml" filepath="$PROJECT_DIR$/openCVSamplefacedetection/openCVSamplefacedetection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/opencv-android/opencv-android.iml" filepath="$PROJECT_DIR$/opencv-android/opencv-android.iml" />
     </modules>
   </component>
 </project>

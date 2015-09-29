@@ -1,3 +1,3 @@
-include ':app'
+include ':app', ':Demo', ':opencv-android'
 include ':openCVLibrary300'
 include ':openCVSamplefacedetection'
